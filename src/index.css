@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Nunito', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fdf0ff 0%, #fff5fb 45%, #fffef0 100%);
+}
+
+button, input, select, textarea { font: inherit; }
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #fff5fb; }
+::-webkit-scrollbar-thumb { background: #FF97D0; border-radius: 99px; }
